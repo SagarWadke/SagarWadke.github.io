@@ -133,6 +133,9 @@ navbar-var-length: false
 ######################################
 # --- Colours / background image --- #
 ######################################
+# Skin color
+skin: default
+enable_darkmode_toggle: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
