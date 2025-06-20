@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
+gem "bigdecimal"
+gem "logger"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
@@ -13,4 +15,3 @@ end
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
   
 gemspec
-

@@ -22,6 +22,32 @@ layout: null
   --body-font: 'Lora', 'Times New Roman', serif;
   --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --mid-col: #808080;
+
+  /* dark mode variables */
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --page-col: #181818;
+  --text-col: #e0e0e0;
+  --link-col: #80bfff;
+  --hover-col: #3399ff;
+  --navbar-col: #222;
+  --navbar-text-col: #eee;
+  --navbar-border-col: #333;
+  --footer-col: #222;
+  --footer-text-col: #aaa;
+  --footer-link-col: #80bfff;
+  --footer-hover-col: #3399ff;
+  --mid-col: #888;
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 /* --- General --- */
