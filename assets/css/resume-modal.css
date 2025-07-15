@@ -129,13 +129,10 @@
 }
 
 @media (max-width: 768px) {
-  .navbar-nav {
-    display: flex;
-    flex-wrap: nowrap; /* Prevent items from wrapping */
-    justify-content: center; /* Center the items */
-  }
-
   .navbar-nav .menu-resume-button {
+    font-size: 0.75rem; /* Slightly smaller font size for mobile */
+    padding: 5px 12px; /* Adjust padding for mobile */
+    line-height: 1.4; /* Ensure proper text alignment */
     width: auto; /* Ensure the button adjusts to its content */
     text-align: center; /* Center the text inside the button */
     margin: 0 auto; /* Center the button horizontally */
