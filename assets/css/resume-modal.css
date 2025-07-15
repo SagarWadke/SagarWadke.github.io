@@ -14,7 +14,7 @@
     box-shadow: 0 2px 8px rgba(0, 122, 255, 0.07);
     height: 30px;
     margin-top: 0.65rem; /* Match navbar padding */
-    margin-bottom: 0 auto; /*0.9375rem;*/
+    margin-bottom: 0.9375rem;
 }
 
 .menu-resume-button:hover {
@@ -129,12 +129,19 @@
 }
 
 @media (max-width: 768px) {
-  .navbar-nav .menu-resume-button {
-    font-size: 0.75rem; /* Slightly smaller font size for mobile */
-    padding: 5px 12px; /* Adjust padding for mobile */
-    line-height: 1.4; /* Ensure proper text alignment */
-    width: auto; /* Ensure the button adjusts to its content */
-    text-align: center; /* Center the text inside the button */
-    margin: 0 auto; /* Center the button horizontally */
+  .navbar-nav .nav-item .menu-resume-button {
+    display: flex; /* Ensure flex display is maintained */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    padding-left: 12px; /* Ensure equal padding */
+    padding-right: 12px;
+    width: auto; /* Let width be determined by content */
+    text-align: center; /* Ensure text is centered */
+    margin: 0.5rem auto; /* Center button in container */
+  }
+  
+  /* Fix for the collapsible menu in mobile view */
+  .navbar-collapse .navbar-nav {
+    align-items: center;
   }
 }
