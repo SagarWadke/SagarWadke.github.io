@@ -138,7 +138,7 @@
   }
 
   .navbar-nav .menu-resume-button {
-    width: 100%; /* Make the button span the full width if needed */
+    width: auto; /* Make the button span the full width if needed */
     text-align: center; /* Center the text */
   }
 }
