@@ -129,16 +129,15 @@
 }
 
 @media (max-width: 768px) {
-  .menu-resume-button {
-    font-size: 0.75rem; /* Reduce font size */
-    padding: 2px 8px; /* Adjust padding */
-    height: auto; /* Allow height to adjust dynamically */
-    margin-top: 0.5rem; /* Adjust margin for better spacing */
-    margin-bottom: 0.5rem;
+  .navbar-nav {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent items from wrapping */
+    justify-content: center; /* Center the items */
   }
 
   .navbar-nav .menu-resume-button {
-    width: auto; /* Make the button span the full width if needed */
-    text-align: center; /* Center the text */
+    width: auto; /* Ensure the button adjusts to its content */
+    text-align: center; /* Center the text inside the button */
+    margin: 0 auto; /* Center the button horizontally */
   }
 }
