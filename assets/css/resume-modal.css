@@ -129,19 +129,25 @@
 }
 
 @media (max-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
   .navbar-nav .nav-item .menu-resume-button {
-    display: flex; /* Ensure flex display is maintained */
-    justify-content: center; /* Center text horizontally */
-    align-items: center; /* Center text vertically */
-    padding-left: 12px; /* Ensure equal padding */
-    padding-right: 12px;
-    width: auto; /* Let width be determined by content */
-    text-align: center; /* Ensure text is centered */
-    margin: 0.5rem auto; /* Center button in container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    margin: 0.5rem auto;
+    padding: 3px 12px;
+    height: 30px;
   }
   
-  /* Fix for the collapsible menu in mobile view */
-  .navbar-collapse .navbar-nav {
-    align-items: center;
+  /* Fix for collapsed navbar */
+  .navbar-collapse .navbar-nav .nav-item {
+    text-align: center;
   }
 }
