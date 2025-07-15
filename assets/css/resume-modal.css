@@ -140,8 +140,9 @@
     align-items: center;
     justify-content: center;
     width: auto;
-    text-align: center;
     margin: 0.5rem auto;
+    padding: 3px 12px;
+    height: 30px;
   }
   
   /* Fix for collapsed navbar */
