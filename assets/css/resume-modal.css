@@ -142,9 +142,4 @@
     padding: 3px 12px;
     height: 30px;
   }
-  
-  /* Fix for collapsed navbar */
-  .navbar-collapse .navbar-nav .nav-item {
-    text-align: center;
-  }
 }
