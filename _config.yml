@@ -21,9 +21,11 @@ author: Sagar Wadke
 
 navbar-links:
   About Me: "aboutme"
+  Skills: "skills"
   Projects: "projects"
-  Home: "https://sagarwadke.github.io"
-  Resume: "resume"
+  Testimonials: "testimonials"
+  
+  
 
 ################
 # --- Logo --- #

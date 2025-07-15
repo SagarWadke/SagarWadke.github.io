@@ -1,0 +1,54 @@
+/* --- Project Section --- */
+
+.project-img-wrapper {
+  position: relative;
+  display: block;
+  border-radius: 0.5rem;  /* match your overlay’s radius */
+  overflow: hidden;        /* clip the ::before to the curved corners */
+}
+
+.project-img-wrapper .img-fluid {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  object-fit: cover;
+  height: auto;             /* Remove fixed height if present */
+  max-height: none;
+}
+
+.project-img-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(80, 80, 80, 0.5);
+  /* you can actually drop the border‐radius here now,
+     since the wrapper will clip it for you */
+  transition: opacity 0.3s;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.project-img-wrapper:hover::before,
+.project-img-wrapper:focus::before {
+  opacity: 0;
+}
+
+/* Project tile title color */
+.projects-section .mt-2,
+.col-md-6 .mt-2 {
+  color:var(--text-col); /* Replace with your desired color or a CSS variable */
+  font-weight: bold;  
+  transition: color 0.2s;
+}
+
+.col-md-6 a,
+.col-md-6 a:hover,
+.col-md-6 a:focus {
+  text-decoration: none;
+}
+
+/* Optional: Change color on hover */
+.col-md-6 a:hover .mt-2 {
+  color:var(--hover-col); /* Or another accent color */
+}
+

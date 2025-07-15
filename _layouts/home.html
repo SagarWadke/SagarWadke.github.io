@@ -4,9 +4,9 @@ layout: page
 
 {{ content }}
 
-{% assign posts = paginator.posts | default: site.posts %}
+{%- comment -%} {% assign posts = paginator.posts | default: site.posts %} {%- endcomment -%}
 
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+{%- comment -%} <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <li class="post-preview">
@@ -119,4 +119,4 @@ layout: page
   </li>
   {% endif %}
 </ul>
-{% endif %}
+{% endif %} {%- endcomment -%}

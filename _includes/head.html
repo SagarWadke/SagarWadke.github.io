@@ -172,7 +172,7 @@
 
   {% assign favicon_exists = site.static_files | where: "path", "/favicon.ico" | size %}
   {% if favicon_exists == 1 %}
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url   }}" />
   {% endif %}
 
   {% if page.head-extra %}
@@ -181,4 +181,12 @@
     {% endfor %}
   {% endif %}
 
+  <link rel="stylesheet" href="{{ '/assets/css/resume-modal.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/dark-mode-toggle.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/testimonials.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/project.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/skills.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/hero.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/typing-animation.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/about-page.css' | relative_url }}">
 </head>
