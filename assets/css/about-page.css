@@ -76,6 +76,7 @@
 .about-cta-button:hover {
   background-color: var(--hover-col);
   transform: translateY(-3px);
+  text-decoration: none;
   box-shadow: 0 6px 15px rgba(var(--link-col-rgb), 0.25);
 }
 

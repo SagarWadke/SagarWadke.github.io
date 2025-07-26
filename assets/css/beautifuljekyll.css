@@ -1168,3 +1168,13 @@ pre {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Remove underline on all button-styled links */
+.btn:hover,
+.hero-cta:hover,
+.secondary-cta:hover,
+.about-cta-button:hover,
+[class*="-cta"]:hover,
+[class*="btn-"]:hover {
+    text-decoration: none !important;
+}

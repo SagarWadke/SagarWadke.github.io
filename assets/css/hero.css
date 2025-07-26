@@ -80,8 +80,8 @@
 }
 
 .hero-cta:hover {
-  background-color: var(--hover-col); /* Use lighter teal for hover */
-  transform: translateY(-2px);
+  background-color: var(--link-col); /* Use teal color variable */
+  color: var(--page-col); /* Use page color variable */
 }
 
 .secondary-cta {

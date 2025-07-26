@@ -8,14 +8,6 @@ permalink: /projects/project6/
   <div class="project-header">
     <h1>Evaluation of Intrinsic Camera Calibration Accuracy: Reference Setup Verification and Methodology</h1>
     
-    <!-- Hero Image -->
-    <div class="project-hero-image">
-      <img src="{{ site.baseurl }}/assets/img/projects/project_6/calibration_setup.jpg" 
-           alt="Camera Calibration Reference Setup" 
-           class="img-fluid rounded" 
-           style="width: 80%; max-width: 600px; height: auto;">
-      <p class="image-caption">Double-goniometer reference setup for precise camera calibration evaluation</p>
-    </div>
   </div>
 
   <div class="project-section">
@@ -158,5 +150,10 @@ permalink: /projects/project6/
       </div>
     </div>
     
+  </div>
+  <div class="back-to-projects">
+    <a href="{{ site.baseurl }}/projects/" class="btn" role="button">
+      <i class="fas fa-arrow-left mr-2"></i>Back to All Projects
+    </a>
   </div>
 </div>

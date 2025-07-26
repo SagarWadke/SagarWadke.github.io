@@ -205,4 +205,12 @@ permalink: /projects/project1/
       </p>
     </div>
   </div>
+
+  <!-- Back to Projects Button -->
+  <div class="back-to-projects">
+    <a href="{{ site.baseurl }}/projects/" class="btn" role="button">
+      <i class="fas fa-arrow-left mr-2"></i>Back to All Projects
+    </a>
+  </div>
+  
 </div>

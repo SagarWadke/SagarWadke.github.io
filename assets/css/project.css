@@ -379,6 +379,68 @@
   margin-top: 0;
 }
 
+/* Minimal back to projects link */
+.back-to-projects-minimal {
+  margin: 3rem 0 1rem;
+  text-align: center;
+}
+
+.back-to-projects-minimal a {
+  color: var(--link-col);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.back-to-projects-minimal a:hover {
+  transform: translateX(-3px);
+}
+
+/* Back to Projects button styling */
+.back-to-projects {
+  margin: 3rem 0 1rem;
+  text-align: center;
+}
+
+.back-to-projects .btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--link-col);
+  color: white !important;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  outline: none; /* Removes the default outline */
+  box-shadow: 0 4px 10px rgba(var(--link-col-rgb), 0.2);
+}
+
+.back-to-projects .btn:focus {
+  outline: none; /* Ensures no blue outline on focus */
+  box-shadow: 0 0 0 3px rgba(var(--link-col-rgb), 0.5); /* Optional: Add a custom focus ring */
+}
+
+.back-to-projects .btn:hover {
+  background-color: var(--hover-col);
+  transform: translateY(-3px);
+  text-decoration: none;
+  box-shadow: 0 6px 15px rgba(var(--link-col-rgb), 0.25);
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .back-to-projects .btn {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .back-to-projects .btn:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .role-container,

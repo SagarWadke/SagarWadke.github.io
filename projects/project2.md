@@ -174,4 +174,9 @@ permalink: /projects/project2/
       <p class="image-caption">The final water purification system concept</p>
     </div>
   </div>
+    <div class="back-to-projects">
+    <a href="{{ site.baseurl }}/projects/" class="btn" role="button">
+      <i class="fas fa-arrow-left mr-2"></i>Back to All Projects
+    </a>
+  </div>
 </div>
