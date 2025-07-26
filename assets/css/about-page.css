@@ -54,5 +54,39 @@
   color: var(--text-col);
 }
 
+/* Button styling */
+.about-cta-container {
+  margin-top: 2rem;
+}
+
+.about-cta-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--link-col);
+  color: white !important;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(var(--link-col-rgb), 0.2);
+}
+
+.about-cta-button:hover {
+  background-color: var(--hover-col);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(var(--link-col-rgb), 0.25);
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .about-cta-button {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .about-cta-button:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
 
 

@@ -21,3 +21,7 @@ subtitle: Creating systems that see, think, and solve
   </div>
 </div>
 
+<div class="about-cta-container">
+  <a href="{{ '/journey/' | relative_url }}" class="about-cta-button">View My Professional Journey</a>
+</div>
+
