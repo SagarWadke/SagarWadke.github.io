@@ -10,7 +10,7 @@ permalink: /projects/project1/
     
     <!-- Hero Image: Add a main image of the LINAC cavity model or simulation result -->
     <div class="project-hero-image">
-      <img src="{{ site.baseurl }}/assets/img/projects/project_1/solid_model.PNG" alt="RF LINAC Cavity Model" class="img-fluid rounded">
+      <img src="{{ site.baseurl }}/assets/img/projects/project_1/solid_model.png" alt="RF LINAC Cavity Model" class="img-fluid rounded">
       <p class="image-caption">3D Model of the 17-cell OFHC Copper LINAC Cavity with Cooling Channels</p>
     </div>
   </div>
