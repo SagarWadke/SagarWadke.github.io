@@ -1,0 +1,17 @@
+- name: Vintage Camera
+  price: $149.99
+  description: A beautiful vintage film camera in excellent condition. Perfect for photography enthusiasts.
+  image: /assets/img/products/camera.jpg
+  pickup: "Boston, MA - Downtown"
+  
+- name: Mechanical Keyboard
+  price: $89.99
+  description: Cherry MX Blue switches with custom keycaps. Barely used, sounds amazing.
+  image: /assets/img/products/keyboard.jpg
+  pickup: "Boston, MA - Downtown"
+
+- name: Desk Lamp
+  price: $35.00
+  description: Modern LED desk lamp with adjustable brightness. Energy efficient.
+  image: /assets/img/products/lamp.jpg
+  pickup: "Cambridge, MA"
